@@ -1,0 +1,27 @@
+{
+  "name": "graphql-node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --delay 5 dist/app.js",
+    "gulp": "node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedropacheco92/graphql-node-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedropacheco92/graphql-node-api/issues"
+  },
+  "homepage": "https://github.com/pedropacheco92/graphql-node-api#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "typescript": "^2.9.2"
+  }
+}
